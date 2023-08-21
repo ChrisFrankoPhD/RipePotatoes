@@ -1,0 +1,119 @@
+body.modal-open {
+  overflow: hidden;
+}
+
+.img-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+}
+.aspect-66 {
+  aspect-ratio: 0.666;
+}
+.w-65 {
+  width: 65%;
+}
+.w-60 {
+  width: 60%;
+}
+.w-55 {
+  width: 55%;
+}
+.card-image {
+  position: absolute;
+  bottom: 0; left: 0; top: 0; right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.backdrop-container {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  z-index: 100;
+}
+.backdrop-img {
+  position: absolute;
+  bottom: 0; left: 0; top: 0; right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  z-index: 100;
+  opacity: 0.4;
+}
+.hero-text {
+  z-index: 200;
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.card-height {
+  height: 249px;
+}
+.read-more {
+  height: 20%;
+  width: 100%; 
+  display: flex;
+  align-items: flex-end;
+  bottom: 0;
+}
+.height-80 {
+  height: 80%;
+}
+.fade-white {
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.6868872549019608) 60%, rgba(255,255,255,0) 100%);
+}
+.read-more-link {
+  cursor: pointer;
+  color: rgb(33,37,41); 
+}
+.read-more-link:hover {
+  cursor: pointer;
+  color: rgb(58, 216, 22); 
+  
+}
+dialog::backdrop {
+  opacity: 0.9;
+  background-size: cover;
+  background-color: rgb(26, 25, 25);
+}
+
+.movie-modal {
+  border-radius: 3% / 5%;
+}
+.close {
+  border: 2px solid black;
+  border-radius: 10%;
+  background-color: rgb(248, 248, 244);
+  color: rgb(26, 25, 25);
+  
+}
+.close:hover {
+  border: 2px solid transparent;
+  border-radius: 10%;
+  background-color: rgb(26, 25, 25);
+  color: rgb(248, 248, 244);
+}
+.card {
+  outline: 3px solid transparent;
+  border: none;
+}
+.card:hover {
+  outline: 3px solid rgb(26, 25, 25);
+}
+.card:focus {
+  outline: 3px solid rgb(26, 25, 25);
+}
+.card:focus-within {
+  outline: 3px solid rgb(26, 25, 25);
+}
+.card-title:hover {
+  cursor: pointer;
+  color: rgb(10, 10, 166);  
+}
